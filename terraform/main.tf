@@ -4,7 +4,7 @@ provider "azurerm" {
 
 terraform {
   backend "azurerm" {
-    resource_group_name  = "rg-lab"
+    resource_group_name  = "rg-lab-bplesant"
     storage_account_name = "sabplesant2022"
     container_name       = "tfstate"
     key                  = "rg-bplesant-nfs-2022.tfstate"
